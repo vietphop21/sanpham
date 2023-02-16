@@ -1,0 +1,254 @@
+*
+{
+    margin:0;
+    padding:0;
+   
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+li
+{
+    list-style: none;
+    font-weight: bold;
+
+}
+a{
+    text-decoration:none;
+}
+header{
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+   background-color: #cccccc7a;
+    z-index: 1;
+}
+.menu li{
+    padding:0 12px;
+    position: relative;
+  
+}
+.menu li:hover .sub-menu{
+    visibility: visible;
+    top:30px;
+}
+.sub-menu
+{
+   
+   position:absolute;
+    width: 150px;
+   
+    padding-top: 30px;
+    border:1px solid #333;
+    visibility: hidden;
+    top:50px;
+    transition: 0.5s;
+    z-index:1;
+    background-color: white;
+    
+  
+}
+.logo
+{
+    flex:1;
+
+}
+.menu li a{
+    font-size: 18px;
+}
+.sub-menu ul li{
+    padding-left:20px;
+}
+
+.menu
+{
+    flex:3;
+    display: flex;
+}
+.others li{
+    display: flex;
+    padding-left: 50px;
+}
+.others
+{
+    display: flex;
+    flex:1;
+    padding-left: 200px;
+}
+.others li{
+  
+    padding-left: 10px;
+}
+.other li:first-child input
+{
+    border: none;
+    border-bottom: 1px solid #333   ;
+}
+.aspect-ratio-169 {
+    display: block;
+    position: relative;
+    padding-top: 56.25%;
+    transition: 0.3s;
+  }
+  .aspect-ratio-169 img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .dot-container
+  {
+   justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    margin: 20px;
+  }
+  header.sticky
+  {
+    background-color: antiquewhite;
+
+  }
+  .dot
+  {
+    height:15px;
+    width: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin:10px;
+  }
+  .dot.active
+  {
+    background-color:#333 ;
+  }
+  #Slider{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #333;
+    overflow: hidden;
+
+  }
+  .cartegory
+  {
+    padding-top:80px;
+    padding-left:30px;
+    display: flex;
+  }
+  .row
+  {
+    display:flex;   
+    flex-wrap:wrap;
+  }
+  .app-container{
+    text-align: center;
+    align-items: center;
+    padding: 150px 0 50px 0;
+  }
+.app-gg{
+    margin: 50px;
+}
+.app-gg img{
+    height: 50px;
+}
+
+.app-container p{
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+}
+.app-container input{
+    margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+    width: 400px;
+    text-align: center;
+    outline: none;
+}
+/* ..................................................................app  */
+footer{
+    text-align: center;
+}
+.footer-top{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 70px;
+}
+.footer-top li{
+    padding: 0 12px;
+    position: relative;
+}
+.footer-top li::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height:80%  ;
+    background: #cccccc;
+    position:absolute;
+    right: 0;
+    top: 50%;
+    transform:translateY(-50%) ;
+}
+.footer-top li:last-child::after{
+    display: none;
+}
+.footer-top li:last-child a{
+    margin-right: 12px;
+    color: #333;
+}
+.footer-center{
+    text-align: center;
+}
+.footer-bottom{
+    margin: 20px;
+    text-align: center;
+    background: r;
+
+}
+
+/* Category */
+
+.category{
+    padding: 100px ;
+    padding-left: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category-top{
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.category-top p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 12px;
+    font-size: 12px;
+    margin-left: 12px;
+}
+.category-left{
+    width: 20%;
+}
+.category-right{
+    width: 80%;
+}
+.category-right-top-item:first-child{
+    flex: 2;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.category-right-top-item{
+    flex: 1;
+}

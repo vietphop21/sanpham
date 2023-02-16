@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ivy-Project</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://pubcdn.ivymoda.com/ivy2/images/logo.png" alt="" />
+          </div>
+        <div class="menu">
+            <li> <a href="">NỮ</a> 
+             <ul class="sub-menu">
+                    <li> <a href=""> Hàng mới về </a> </li>
+                    <li> <a href=""> Collect </a> </li>
+                    <li> <a href=""> Áo </a> </li>
+                <ul>
+                    <li>Áo sơ mi</li>
+                    <li>Áo thun</li>
+                    <li>Áo vest</li>
+                    <li> Áo 1</li>
+                    <li>Áo 2</li>
+                </ul>
+                <li> <a href="">Quần </a> </li>
+                <ul>
+                    <li>Quần 1</li>
+                    <li>Quần 2</li>
+                    <li>Quần 3 </li>
+                    <li> Quần 4</li>
+                    <li>Quần 5</li>
+                </ul>
+
+        </ul>
+            </li>
+            <li> <a href="">NAM</a> 
+                <ul class="sub-menu">
+                    <li> <a href=""> Hàng mới về </a> </li>
+                    <li> <a href=""> Collect </a> </li>
+                    <li> <a href=""> Áo </a> </li>
+                <ul>
+                    <li>Áo sơ mi</li>
+                    <li>Áo thun</li>
+                    <li>Áo vest</li>
+                    <li> Áo 1</li>
+                    <li>Áo 2</li>
+                </ul>
+                <li> <a href="">Quần </a> </li>
+                <ul>
+                    <li>Quần 1</li>
+                    <li>Quần 2</li>
+                    <li>Quần 3 </li>
+                    <li> Quần 4</li>
+                    <li>Quần 5</li>
+                </ul>
+
+        </ul>
+            </li>
+            <li> <a href="">TRẺ EM</a>
+                <ul class="sub-menu">
+                    <li> <a href=""> Hàng mới về </a> </li>
+                    <li> <a href=""> Collect </a> </li>
+                    <li> <a href=""> Áo </a> </li>
+                <ul>
+                    <li>Áo sơ mi</li>
+                    <li>Áo thun</li>
+                    <li>Áo vest</li>
+                    <li> Áo 1</li>
+                    <li>Áo 2</li>
+                </ul>
+                <li> <a href="">Quần </a> </li>
+                <ul>
+                    <li>Quần 1</li>
+                    <li>Quần 2</li>
+                    <li>Quần 3 </li>
+                    <li> Quần 4</li>
+                    <li>Quần 5</li>
+                </ul>
+
+        </ul>
+            </li>
+            <li> <a href="">SALE</a>
+                <ul class="sub-menu">
+                    <li> <a href=""> Hàng mới về </a> </li>
+                    <li> <a href=""> Collect </a> </li>
+                    <li> <a href=""> Áo </a> </li>
+                <ul>
+                    <li>Áo sơ mi</li>
+                    <li>Áo thun</li>
+                    <li>Áo vest</li>
+                    <li> Áo 1</li>
+                    <li>Áo 2</li>
+                </ul>
+                <li> <a href="">Quần </a> </li>
+                <ul>
+                    <li>Quần 1</li>
+                    <li>Quần 2</li>
+                    <li>Quần 3 </li>
+                    <li> Quần 4</li>
+                    <li>Quần 5</li>
+                </ul>
+
+        </ul>
+            </li>
+            <li> <a href="">KHẨU TRANG</a></li>
+            <li> <a href="">BST</a></li>
+            <li> <a href="">THÔNG TIN</a></li>
+
+        </div>
+        <div class="others">
+            <li>
+                <input type="text" placeholder="Tìm kiếm" > <i class="fas fa-search"></i>
+
+            </li>
+            <li>
+                <a class="fa fa-paw" href=""></a>
+            </li>
+            <li>
+                <a class="fa fa-user" href="login.html"></a>
+
+            </li>
+            <li>
+                <a class="fa fa-shopping-bag" href=""></a>
+            </li>
+            
+
+        </div>
+    </header>
+    
+    <section id="Slider">
+        <div class="aspect-ratio-169">
+            <img src="IvyProject/2.jpg">
+            <img src="IvyProject/3.jpg">
+            <img src="IvyProject/4.jpg">
+            <img src="IvyProject/5.jpg">
+
+          
+        </div>
+        <div class="dot-container">
+<div class="dot active"></div>
+<div class="dot"></div>
+<div class="dot"></div>
+<div class="dot"></div>
+
+        </div>
+
+    </section class="app-container">
+    <section>
+
+    </section>
+    <script>
+        const imgPosition =document.querySelectorAll(".aspect-ratio-169 img");
+        const imgContainer = document.querySelector('.aspect-ratio-169' );
+        const dotItem=     document.querySelectorAll(".dot");
+        let index=0;
+        let imgNumber=imgPosition.length;
+        imgPosition.forEach(function(image,index)
+        {
+            image.style.left=index*100 +"%";
+            dotItem[index].addEventListener("click",function()
+            {
+               slider(index)
+
+            })
+        }
+        )
+        function imgSlide()
+        {
+            index++;
+            console.log(index);
+            if(index>=imgNumber) {index =0}
+            
+               slider(index);
+            
+
+        }
+        function slider(index)
+        
+        {
+            imgContainer.style.left="-" + index*100 + "%";
+            const dotActive =document.querySelector('.active')
+            dotActive.classList.remove("active")
+            dotItem[index].classList.add("active");
+            
+
+
+        }
+        setInterval(imgSlide,3000)  
+   
+        
+
+    </script>
+    <script>
+        const header=document.querySelector("header")
+        window.addEventListener("scroll",function()
+        {
+            x=window.pageXOffset;
+            if(x>0)
+            {
+                header.classList.add("sticky");
+            }
+            else
+            {
+                header.remove.add("sticky");
+            }
+            
+        }
+        )
+    </script>
+    <section class="app-container">
+        <p>Tải ứng dụng IVI moda</p>
+        <div class="app-gg">
+        <img src="IvyProject/1.png" alt="">
+        <img src="IvyProject/2.png" alt="">
+        </div>
+        <p>Nhận văn bản</p>
+        <input type="text"placeholder="Nhập email">
+    
+    
+    </section>   
+    <!-- footer -->
+    <div class="footer-top">
+        <li><a href=""></a>Liên Hệ</li>
+        <li><a href=""></a>Tuyển dụng</li>
+        <li><a href=""></a>Giới thiệu</li>
+        <li>
+            <a href="" class="fa fa-facebook"></a>
+            <a href="" class="fa fa-instagram"></a>
+            <a href="" class="fa fa-twitter"></a>
+        </li>
+    </div>
+    <div class="footer-center"><p>
+        
+        Công ty Cổ phần Dự Kim với số đăng ký kinh doanh: 0105777650 <br>
+    
+    Địa chỉ đăng ký: Tổ dân phố Tháp, P.Đại Mỗ, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam <br>
+    
+    Số điện thoại: <b> 0243 205 2222/ 090 589 8683</b> <br>
+    
+    Email: cskh@ivy.com.vn
+    </p></div>
+    <div class="footer-bottom">©IVYmoda All rights reserved</div>
+    </body>
+    
+</body>
+</html>
