@@ -1,0 +1,24 @@
+{
+  "name": "projectfullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"json-server --watch db.json",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vietphop21/sanpham.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vietphop21/sanpham/issues"
+  },
+  "homepage": "https://github.com/vietphop21/sanpham#readme",
+  "description": "",
+  "dependencies": {
+    "json-server": "^0.17.2"
+  }
+}

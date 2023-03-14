@@ -16,6 +16,7 @@ li {
 a {
     text-decoration: none;
 }
+
 content {
     padding-left: 20px;
 }
@@ -26,7 +27,7 @@ header {
     justify-content: space-between;
     height: 70px;
     width: 100%;
-        position: fixed;
+    position: fixed;
     background-color: white;
     z-index: 1;
 }
@@ -210,21 +211,23 @@ header.sticky {
 
 }
 
-.div1  {
+.div1 {
     height: 600px;
-    padding:20px;
-    
-   
-   
+    padding: 20px;
+
+
+
     background-color: white;
 }
+
 .div2 {
     height: 600px;
-    padding:20px;
-    width:23%;
-    
-   
-   
+    padding: 20px;
+    width: 23%;
+
+
+
+
     background-color: white;
 }
 
@@ -315,115 +318,129 @@ header.sticky {
 
 
 }
+
 .info-car .datcoc {
     font-size: 12px;
 }
+
 .info-car .xemchitiet {
     font-size: 12px;
 }
 
 
-.info-car .datcoc:hover{
+.info-car .datcoc:hover {
     background: white;
     border: 2px solid blue;
-        color: blue !important;
+    color: blue !important;
 
 
 }
-.info-car .xemchitiet:hover{
+
+.info-car .xemchitiet:hover {
     color: #fff !important;
     background: #1464f4;
 
 
 }
-.container .div2{
+
+.container .div2 {
     padding: 0;
     margin: 15px;
 }
-.img2-container{
+
+.img2-container {
     width: 200px;
 }
-.div2 .datcoc{
-    font-size:9px;
+
+.div2 .datcoc {
+    font-size: 9px;
 }
-.div2 .xemchitiet{
-    font-size:9px;
+
+.div2 .xemchitiet {
+    font-size: 9px;
 }
-.thepcaocap
-{
-    color:#1464f4;
+
+.thepcaocap {
+    color: #1464f4;
     font-size: 20px;
     font-weight: bold;
 }
-.imgcaocap
-{
-    content:url( "Ivyproject/xedap.png");
+
+.imgcaocap {
+    content: url("Ivyproject/xedap.png");
     width: 200px;
-    
+
 }
-.imgtrungcap
-{
-    content:url( "Ivyproject/xedap3.png");
+
+.imgtrungcap {
+    content: url("Ivyproject/xedap3.png");
     width: 200px;
-    
+
 }
- .imgphothong
-{
-    
-    color:red;
-    content:url( "Ivyproject/phothong.png");
+
+.imgphothong {
+
+    color: red;
+    content: url("Ivyproject/phothong.png");
     width: 200px;
 }
-.type-car
-{
+
+.type-car {
     display: flex;
     justify-content: center;
     background: whitesmoke;
-    padding:5px;
+    padding: 5px;
 }
-.type-car p{
+
+.type-car p {
     font-weight: 550;
     padding: 19px;
     font-size: 12px;
 }
-.type-car p:hover{
-    color:blue;
+
+.type-car p:hover {
+    color: blue;
     font-size: 15px;
 
 }
-.title h2{
+
+.title h2 {
     text-align: center;
     font-size: 40px;
-    color:#3c3c3c;
+    color: #3c3c3c;
     font-weight: 520;
 }
-.sub-title
-{
+
+.sub-title {
     text-align: center;
     padding-left: 200px;
     padding-right: 200px;
     color: #3c3c3c;
 }
-.battery-item
-{
-    padding-top:20px;
+
+.battery-item {
+    padding-top: 20px;
     display: flex;
 }
-.battery-item img{
-    padding:20px;
-    height: 400px;;
-    width: 680px;   
+
+.battery-item img {
+    padding: 20px;
+    height: 400px;
+    ;
+    width: 680px;
 }
-.battery-item div{
+
+.battery-item div {
     text-align: center;
     font-size: 20px;
     color: #3c3c3c;
-    padding:10px;
-    
-    
+    padding: 10px;
+
+
 }
+
 .battery-item .xct {
-    padding-top:30px;
+    padding-top: 30px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -431,19 +448,188 @@ header.sticky {
     margin-left: 250px;
     width: 171px;
     background: white;
-    border-radius: 5px 5px 5px 5px ;
-    border:1px solid blue;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid blue;
     font-weight: 700;
     font-size: 11px;
     text-align: center;
     color: blue !important;
     height: 45px;
 }
-.battery-item .xct:hover{
+
+.battery-item .xct:hover {
     background: blue;
-    color:white;
+    color: white;
 
 }
-.xct a:hover{
+
+.xct a:hover {
+    color: white;
+}
+
+.thietbisac-1 {
+    width: 40%;
+    height: auto;
+
+}
+
+.thietbisac {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thietbisac-1 img {
+    width: 600px;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 200px;
+    ;
+}
+
+.tbs1 {
+    font-size: 35px;
+    line-height: 1.2;
+    color: #1a2948;
+}
+
+.tbs2 {
+    padding-bottom: 15px;
+
+    padding-top: 15px;
+    padding-right: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1f2125;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tbs3 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 24px;
+    width: 220px;
+    font-weight: 500;
+    background: #1464f4;
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #fff !important;
+    height: 45px;
+
+}
+
+.thietbisac-1 .tbs3:hover {
+    border: 2px solid #1464f4;
+    background: white;
+    color: #1464f4 !important;
+}
+
+.bhdv {
+    width: 100%;
+    height: 600px;
+    background-image: url('Ivyproject/bhdv.png');
+    background-size: 1400px 600px;
+
+
+
+
+
+
+
+
+}
+
+.bhdvtitle {
+    width: 40%;
+   
+}
+
+
+.csbh {
+    padding-left: 120px;
+    font-weight: bold;
+    color: #3c3c3c;
+font-size: 18px;
+padding-bottom: 10px;
+    
+}
+.bhdv1{
+    padding-left: 120px;
+    font-size: 30px;
+    padding-top:120px;
+    color: #3c3c3c;
+}
+    
+.bhdv-title{
+    padding-left: 120px;
+
+    font-size: 13px;
+    color: #3c3c3c;
+    padding-top:10px;
+    padding-bottom:10px;
+
+    
+    
+}
+.bhdvxct{
+    margin-left: 10px;
+    padding: 16px;
+    width: 250px;
+    background: white;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #1464f4 ;
+    border: 1px solid #1464f4;
+    height: 45px;
+}
+.xctt .bhdvxct:hover {
     color:white;
+    background: #1464f4;
+
+}
+
+.xctt{
+    padding-left: 110px;
+    padding-bottom: 30px;
+    padding-top:10px;
+}
+.dlbd{
+    padding-left: 110px;
+    padding-bottom: 10px;
+}
+.dlbd .bhdvdlbd:hover{
+    color:#1464f4;
+    background: white;
+    border: 1px solid #1464f4;
+}
+.dlbd .bhdvdlbd{
+    margin-left: 10px;
+    padding: 16px;
+    width: 250px;
+    background: #1464f4;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #fff ;
+    height: 45px;
+}
+.csbh3{
+    color: #3c3c3c;
+    padding-left: 120px;
+    padding-bottom: 20px;
+    font-weight: 530;
 }
